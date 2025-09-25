@@ -14,3 +14,20 @@ The tokens are converted into an Abstract Syntax Tree (AST), which represents th
 The AST is traversed to compute the final result of the expression.
 
 The current implementation supports addition, subtraction, multiplication, and division, and is designed to handle common error cases.
+
+## Installation and usage
+
+### Install deps
+```
+yarn && yarn install
+```
+
+### Run tests in the console
+```
+yarn test
+```
+
+### Run tests in the UI
+```
+yarn test:ui
+```
